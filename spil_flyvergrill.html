@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLYVERFISKEGRILLEN</title>
+    <link rel="stylesheet" href="css/animationer_flyvergrill.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/spil.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">startside</a>
+      <a href="spil.html">spil</a>
+      <a href="grafik.html">grafik</a>
+      <a href="assets.html">assets</a>
+      <a href="teknik.html">teknik</a>
+    </header>
+    <h1>FLYVERFISKEGRILLEN</h1>
+    <main>
+      <div id="screen">
+        <div id="game">
+          <div id="game_background"></div>
+          <div id="game_element">
+            <div id="fly_kawaii_container">
+              <div id="fly_kawaii_sprite"></div>
+            </div>
+
+            <div id="fisk_kawaii_container">
+              <div id="fisk_kawaii_sprite"></div>
+            </div>
+
+            <div id="fisk_kawaii_container1">
+              <div id="fisk_kawaii_sprite1"></div>
+            </div>
+
+            <div id="fisk_kawaii_container2">
+              <div id="fisk_kawaii_sprite2"></div>
+            </div>
+          </div>
+
+          <div id="game_ui">
+            <div id="score_board"><div id="point">0</div></div>
+            <div id="energy_board">
+              <div id="liv">3</div>
+            </div>
+            <div id="time_board">
+              <div id="timeglas"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="start_game_forside">
+          <div id="play_btn"></div>
+        </div>
+
+        <div id="game_over">
+          <div id="spiligen_1"></div>
+        </div>
+
+        <div id="level_complete">
+          <div id="spiligen_2"></div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="js/flyvergrill.js"></script>
+  </body>
+</html>
