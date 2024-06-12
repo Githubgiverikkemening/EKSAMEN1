@@ -1,0 +1,136 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  font-size: 1rem;
+  color: #333;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+a:hover {
+  color: black;
+}
+
+a:hover .theme1 {
+  color: black;
+}
+
+section {
+  margin: 40px 0;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+.theme-content {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  transition: box-shadow 0.3s;
+  transition: transform 0.3s ease;
+  border-radius: 4px;
+  position: relative;
+}
+
+.theme-content:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1.03);
+}
+
+a {
+  text-decoration: none; /* Fjern standard understregning */
+  color: inherit; /* Brug samme tekstfarve som det indpakkede element */
+  display: block; /* Sørg for, at <a> opfører sig som en blok, så den kan omslutte hele div'en */
+}
+
+a:hover {
+  opacity: 0.8; /* Gør det lidt mørkere ved hover */
+}
+
+.theme-content {
+  padding: 20px;
+  background-color: #f9f9f9; /* Lys baggrundsfarve for bedre synlighed */
+  border: 1px solid #ddd; /* Tynd kant for definition */
+  border-radius: 4px; /* Runde hjørner for bedre udseende */
+}
+
+.theme-content h3 {
+  margin-top: 0; /* Fjern topmargin for bedre justering */
+}
+
+.theme-content p {
+  margin: 0; /* Fjern margin for at undgå unødvendige mellemrum */
+  font-size: 1em; /* Standard tekststørrelse */
+  line-height: 1.6; /* God linjehøjde for læsbarhed */
+  color: #333; /* Tekstfarve */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
