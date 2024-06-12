@@ -1,0 +1,152 @@
+.flexkompo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.col_galleri {
+  max-width: 65ch;
+}
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1em;
+}
+.span2x2 {
+  display: grid;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+.hello1 {
+  grid-column: 3;
+  grid-row: 1;
+}
+.hello2 {
+  grid-column: 4;
+  grid-row: 1;
+}
+.macbook {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.span2x1 {
+  display: grid;
+  grid-column: 3 / span 2;
+  grid-row: 2;
+}
+
+.span3x1 {
+  display: grid;
+  grid-column: 2 / span 3;
+  grid-row: 3;
+}
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flexkompo img:last-child {
+  margin-top: auto;
+}
+
+.computergrid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.benjamin {
+  display: grid;
+  grid-column: 1 / 2;
+  padding-right: 10%;
+  padding-left: 20%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.benjamininfo {
+  display: grid;
+  grid-column: 2 / 2;
+  padding-right: 20%;
+  padding-left: 10%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.webgrid_2-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.webgrid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.webdivtext {
+  display: grid;
+  grid-column: 1 / span 1;
+}
+.webfoto1 {
+  display: grid;
+  grid-column: 2;
+  max-width: 1000px;
+  margin-right: 1px;
+}
+.weboplevelse {
+  display: grid;
+  grid-column: 2 / 2;
+}
+.webfoto2 {
+  display: grid;
+  grid-column: 1 / 1;
+  grid-row: 1;
+  padding-right: 5%;
+  padding-bottom: 0%;
+}
+
+.knoklerdiv {
+  display: grid;
+  grid-column: 8 / 2;
+}
+.operadiv1 {
+  display: grid;
+  grid-column: 5 / span / 3;
+}
+
+.operafoto2 {
+  display: grid;
+  grid-column: 2;
+  grid-row: 4;
+}
+.operadivtekst2 {
+  display: grid;
+  grid-column: 1;
+  grid-row: 3;
+}
+
+@media (min-width: 600px) {
+  .gridviden_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .operagrid_5-3 {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+  }
+  .operagrid_2-3 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+  .operagrid_3-2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-row: 2;
+  }
+}
